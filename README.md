@@ -7,7 +7,9 @@ Overwrite the email confirmation method with almost a copy-paste to be able to c
 
 ---
 
-For future reference for someone else, I was able to overwrite the `emailConfirmation` function and attach the user's email to the URL. This allows me to handle it in my front-end. Follow these steps:
+For future reference for someone else, I was able to **overwrite** the `emailConfirmation` function and attach the user's email to the URL. This allows me to handle it in my front-end. I hope this proves helpful to someone else as well.
+
+Follow these steps:
 
 1. Create a file named `strapi-server.js` in the directory `src/extensions/users-permissions/`
 2. Add the following code:
